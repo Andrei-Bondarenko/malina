@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:malina_app/core/res/assets/assets.dart';
 import 'package:malina_app/core/res/colors/my_colors.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 
@@ -9,7 +7,10 @@ class MobileScannerOverlay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(backgroundColor: MyColors.k131313, body: _Body());
+    return const Scaffold(
+      backgroundColor: MyColors.k131313,
+      body: _Body(),
+    );
   }
 }
 
@@ -27,7 +28,10 @@ class _Body extends StatelessWidget {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
-              const SizedBox(width: 350,height: 34,),
+              const SizedBox(
+                width: 350,
+                height: 34,
+              ),
               IconButton(
                 icon: const Icon(Icons.close),
                 color: MyColors.k777777,

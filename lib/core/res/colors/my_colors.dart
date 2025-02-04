@@ -11,6 +11,9 @@ class MyColors {
   static const k131313 = Color(0xFF131313);
   static const k777777 = Color(0xFF777777);
   static const kF72055 = Color(0xFFF72055);
+  static const kEDEBEB = Color(0xFFEDEBEB);
+  static const k353535 = Color(0xFF353535);
+  static const k1D1D1D = Color(0xFF1D1D1D);
 
   static const kD4E5FF = Color(0xFFD4E5FF);
   static const kFFD3BA = Color(0xFFFFD3BA);
